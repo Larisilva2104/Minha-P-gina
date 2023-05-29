@@ -3,7 +3,7 @@ body{
 }
 header {
     background: #EB6161;
-    padding: 20px;
+    padding: 80px;
 }
 .marca{
     position:relative;
@@ -11,10 +11,8 @@ header {
     margin: 0 auto;
 }
 .logo{
-     margin-left: 0;
-     right:0;
-    padding-top: 10px;
-    width:300px; 
+    margin: 0 10px 0;
+    width: 30%;
 }
 nav {
     position:absolute;
@@ -42,19 +40,29 @@ nav a:hover{
     text-decoration: underline;
 
 }
+#foco{
+    background-color: #CBB0FF;
+    margin-top: auto;
+    padding-top: 10px;
+}
 
 .principal {
     text-align: center;
-    padding: 20 0 20 0;
+    padding: 20 20 20 0;
 	background:hsl(48, 100%, 67%);
     width: 940px;
 	margin: 10px auto;
+    border: none;
+    border-radius: 5px;
 }
 .titulo-principal{
     text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+   
+    
+    
 }
 .larissa{
    width: 400px;
@@ -63,7 +71,7 @@ nav a:hover{
 }
 #objetivo {
     text-align: center;
-    padding: 3em 0;
+    padding: 3em 10px;
 	width: 940px;
 	margin: 0 auto;
     border: none;
@@ -71,13 +79,14 @@ nav a:hover{
     background-color: #EB6161;
 }
 .banner{
-    width: 100px;
+    width: 50px;
+    margin-top: 10px;
 
 }
 footer{
     text-align: center;
-    background-image: url(bng.png);
-    padding: 10px 0 20px 0;
+    background-color: #CBB0FF;
+    padding: 10px 10px 20px 0;
 }
 
 @media screen and (max-width: 480px) {
