@@ -89,6 +89,38 @@ footer{
     padding: 10px 10px 20px 0;
 }
 
-@media screen { all: ;
-    
+@media screen and (max-width: 600px) {
+	.um {
+		background: #F9C;
+	}
+	span.lt600 {
+		display: inline-block;
+	}
+}
+
+/* min-width */
+@media screen and (min-width: 900px) {
+	.dois {
+		background: #F90;
+	}
+	span.gt900 {
+		display: inline-block;
+	}
+}
+
+/* min-width & max-width */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+	.tres {
+		background: #9CF;
+	}
+	span.bt600-900 {
+		display: inline-block;
+	}
+}
+
+/* max device width */
+@media screen and (max-device-width: 480px) {
+	.iphone {
+		background: #ccc;
+	}
 }
