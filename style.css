@@ -89,17 +89,6 @@ footer{
     padding: 10px 10px 20px 0;
 }
 
-@media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-        width: auto;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    nav {
-        position: static;
-    }
-
+@media screen { all: ;
+    
 }
